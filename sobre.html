@@ -6,70 +6,93 @@
     <title>Sobre</title>
 
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #ffffff;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center; 
-            justify-content: flex-start; 
-            min-height: 100vh; 
-        }
+       body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
 
-        header {
-            background-color: #007BFF;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-            width: 100%;
-        }
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
 
-        .content {
-            width: 80%; 
-            background-color: #fff; 
-            padding: 20px; 
-            border-radius: 10px; 
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
-        }
+.content {
+    width: 90%; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
 
-        h2 {
-            font-size: 20px;
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
 
-        p {
-            font-size: 16px;
-            line-height: 1.5;
-            margin-bottom: 20px;
-        }
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
 
-        a {
-            text-decoration: none;
-            color: #007BFF;
-        }
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
 
-        a:hover {
-            text-decoration: underline;
-        }
+a:hover {
+    text-decoration: underline;
+}
 
-        h2:first-child {
-            margin-top: 0;
-        }
+h2:first-child {
+    margin-top: 0;
+}
 
-        h2:last-child {
-            margin-bottom: 0;
-        }
+h2:last-child {
+    margin-bottom: 0;
+}
 
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            width: 100%;
-        }
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .content {
+        width: 95%; /
+    }
+    h2 {
+        font-size: 18px; 
+    }
+    p {
+        font-size: 14px; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 15px; 
+    }
+    .content {
+        width: 100%; 
+    }
+}
+
     </style>
 </head>
 <body>
